@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Aprendendo a utilizar links e imagens</title>
+</head>
+
+<body>
+    <h1>imagens</h1>
+    <p>
+        Utilizando imagen no mesmo diretório.
+    </p>
+    <picture>
+        <!--esta tag contém soucers de configuração e tags de imagens-->
+        <img src="imagens/paisagem.jpg" alt="Imagem de uma paisagem">
+        <!--tag de imagem com parâmetros src (local da imagem) e alt(para texto alternativo)-->
+    </picture>
+    <p>
+        Utilizando imagem de outro diretório.
+    </p>
+    <picture>
+        <img src="https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Paisagem de montanha">
+    </picture>
+    <p>Utilizando imagem de pasta diferente</p>
+    <picture>
+        <img src="../imagens/paisagem-floresta.jpg" alt="Paisagem floresta">
+        <!--para usarmos arquivos de pastas diferentes devemos usar .. ou mais pontos. Um ponto é para o mesmo diretório ja dois para voltar um diretório.-->
+    </picture>
+    <h1>Links</h1>
+    <p>
+        Utilizando links internos e externos
+    </p>
+    <a href="https://www.github.com/Marcosdeobjunior" hreflang="en" rel="next">(Internos)Meu github</a>
+    <br>
+    <a href="https://www.github.com/Marcosdeobjunior" target="_blank" hreflang="en" rel="external">(Externo)Meu github</a>
+    <!--para usarmos links usamos a tag a, é recomendavél usamos alguns atributo complementares, como hreflang que indica a lingua do site, o targe e o rel que indica se é externo ou interno-->
+</body>
+
+</html>
