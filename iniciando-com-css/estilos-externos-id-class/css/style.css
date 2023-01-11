@@ -1,0 +1,8 @@
+div.texto1 > h1 {
+    background-color: lightcyan;
+}
+
+div#texto2 > h1 {
+/*para epecificarmos uma id usamo o #, já para a class o (.) .*/
+    background-color: lightgreen;
+}
