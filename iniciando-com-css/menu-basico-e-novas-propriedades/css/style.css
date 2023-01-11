@@ -1,0 +1,28 @@
+* {
+/*nas css quando chamamo (*) quer dizer que estamos chamando todos os elementos*/
+    margin: 0;
+    /*espaçamento externo do elemento*/    
+    padding: 0;
+    /*espaçamento interno do elemento*/
+}
+
+div.menu {
+    margin: 0 auto;
+    /*quando queremos centralizar um elemento pai, usamo tal syntax*/
+    padding: 5px;
+    width: 88vw;
+    /*podemos configurar tanto a largura quando a altura e para isso usamos respectivamento width e height*/
+    text-align: center;
+    background-color: lightcoral;
+}
+
+div.menu > a {
+    padding: 0 30px;
+    color: black;
+    text-decoration: none;
+    /*também pode-se alterar o tamanho da fonte e para isso usamos o font-size*/
+}
+
+div.menu > a:hover {
+    border: 1px solid black;
+}
