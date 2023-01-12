@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*estilização do artigo*/
+div.artigo{
+    background-color: whitesmoke;
+    margin: 40px auto;
+    width: 73%;
+    padding: 10px;
+    text-align: center;
+}
+
+div.artigo > h1 {
+    color: aqua;
+    font-family: sans-serif, serif;
+    /*usamos o font-family para alterarmos a familia da fonte*/
+    font-style: italic;
+    /*o font-style é muito usado para especificar que o texto é italico*/
+    font-weight: normal;
+    /*o font-weight é usado para especificar o peso da fonte*/
+}
+
+div.artigo > p {
+    color: tomato;
+    margin-top: 15px;
+    line-height: 1.3em;
+    /*usamos o line-height para alterarmos o espaçamento entre as linhas*/
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
